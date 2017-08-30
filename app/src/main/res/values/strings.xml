@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChaveiroChamado</string>
+    <string-array name="sppinner1">
+        <item>Troca de Aparelho</item>
+        <item>Nova Instalação</item>
+        <item>Retirada de Aparelho</item>
+    </string-array>
+</resources>
