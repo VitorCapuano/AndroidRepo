@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NacTest</string>
+    <string name="Cadastro">Cadastro</string>
+    <string name="Listar">Listar</string>
+</resources>
