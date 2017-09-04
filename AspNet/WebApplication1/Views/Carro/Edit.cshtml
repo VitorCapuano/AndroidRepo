@@ -1,0 +1,34 @@
+﻿@model WebApplication1.Models.Carro
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edição do @Model.Modelo </h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-horizontal">
+        <div class="form-group">
+            <div class="col">
+                @Html.HiddenFor(m => m.Id)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col">
+                @Html.TextBoxFor(m => m.Modelo)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col">
+                @Html.EditorFor(m => m.Ano)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col">
+                @Html.TextBoxFor(m => m.Placa)
+            </div>
+        </div>
+        <input type="submit" value="Salvar" class="btn btn-primary" />
+    </div>
+
+}
